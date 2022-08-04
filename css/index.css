@@ -1,1 +1,5 @@
-/*# sourceMappingURL=index.css.map */
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url("../fonts/gilroy-black.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/gilroy-black.eot?#iefix") format("embedded-opentype"), url("../fonts/gilroy-black.woff2") format("woff2"), url("../fonts/gilroy-black.woff") format("woff"), url("../fonts/gilroy-black.ttf") format("truetype"), url("../fonts/gilroy-black.svg#gilroy-black") format("svg"); /* Chrome < 4, Legacy iOS */
+}/*# sourceMappingURL=index.css.map */
