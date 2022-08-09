@@ -1,0 +1,85 @@
+.inst {
+    position: relative;
+
+    &__title {
+        @include inst("Gilroy", 900, 50px, 62px, #000000);
+    }
+
+    &__header-img {
+        margin-left: 54px;
+    }
+
+    &__header {
+        display: flex;
+        margin-left: 122px;
+        margin-top: 97px;
+    }
+
+    &__iphone-1 {
+        position: absolute;
+        top:100px;
+    }
+
+    &__iphone-2 {
+        position: absolute;
+        top: 258px;
+    }
+
+    &__box-frame {
+        width: 400px;
+        height: 382px;
+        background: #E9E9E9;
+        border-radius: 10px;
+        margin-top: 70px;
+        margin-left: 20px;
+        
+    }
+
+    &__box-frame-2 {
+        width: 400px;
+        height: 382px;
+        background: #E9E9E9;
+        border-radius: 10px;
+        margin-top: 68px;
+        margin-left: 20px;
+    }
+    &__box-frame-3 {
+        width: 400px;
+        height: 382px;
+        background: #E9E9E9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    &__box-frame-4 {
+        width: 400px;
+        height: 382px;
+        background: #E9E9E9;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    &__frame-grid {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 855px;
+    }
+
+    .inst-back {
+        position: absolute;
+        top: 230px;
+        z-index: -6;
+    }
+
+    .inst-middle {
+        position: absolute;
+        top: 750px;
+        z-index: -1;
+    }
+
+    .inst-footer {
+        position: absolute;
+        top: 1110px;
+    }
+}

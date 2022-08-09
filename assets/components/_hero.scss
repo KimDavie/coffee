@@ -1,0 +1,75 @@
+.hero {
+    position: relative;
+    
+    &__title {
+        @include hero("Gilroy", 900, 80px, 100px, #000000);
+    }
+
+    &__description {
+        @include hero("Gilroy", 500, 25px, 130%, #000000);
+        width: 658px;
+        margin-top: 60px;
+    }
+    &__bottom-description {
+        @include hero("Gilroy", 500, 25px, 130%, #000000);
+        margin-top: 35px;
+
+    }
+
+    &__content {
+        margin-left: 122px;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__span {
+        @include hero("Gilroy", 700, 25px, 130%, #000000)
+    }
+
+    &__btn {
+        font-family: 'Gilroy';
+        font-weight: 700;
+        font-size: 30px;
+        color: #FFFFFF;
+        width: 400px;
+        height: 80px;
+        background: grey;
+        border-radius: 5px;
+        margin-left: 122px;
+        margin-top: 90px;
+        box-shadow: inset 0 0 0 0 #F9B300;
+        transition: ease-out 0.4s;
+        outline: none;
+    }
+
+    &__btn:hover {
+        box-shadow: inset 400px 0 0 0 #F9B300;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    &__cup {
+        position: absolute;
+        top: 107px;
+        left: 906px;
+        z-index: 1;
+    }
+
+    &__grain {
+        position: absolute;
+        transform: rotate(5.31deg);
+        top: 32px;
+        left: 794px;
+    }
+    
+    .iop {
+        position: absolute;
+        top: -120px;
+        left: 1190px;
+        z-index: -5;
+    }
+
+}

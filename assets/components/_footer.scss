@@ -1,0 +1,21 @@
+.footer {
+    &__icons {
+        @include footer("Gilroy", 500, 25px, 29px, #000000);
+        margin-left: 100px;
+        transition: 0.4s;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 189px;
+        margin-left: 122px;
+        margin-right: 122px;
+        margin-bottom: 100px;
+    }
+
+    &__icons:hover {
+        color: #F9B300
+    }
+}

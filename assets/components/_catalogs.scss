@@ -1,0 +1,95 @@
+.catalogs {
+    position: relative;
+
+    &__title {
+        @include catalogs("Gilroy", 900, 50px, 62px, #000000);
+        margin-top: 276px;
+        margin-left: 122px;
+    }
+
+    &__icons {
+        width: 400px;
+        height: 539px;
+        box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2);
+        border-radius: 20px;
+        margin-left: 20px;
+        margin-top: 83px;
+        background-color: #fff;
+    }
+
+    &__img-grains {
+        margin-top: 67px;
+        margin-left: 25px;
+    }
+
+
+    &__btn {
+        @include catalogs("Gilroy", 700, 25px, 30px, #fff);
+        background: #F9B300;
+        border-radius: 5px;
+        width: 329px;
+        height: 60px;
+        margin-top: 50px;
+        margin-left: 35px;
+        opacity: 0;
+        transition: 0.5s;
+        margin-top: 80px;
+    }
+
+    &__icons:hover &__btn {
+        opacity: 1;
+        margin-top: 65px;
+        
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    &__img {
+        max-width: 100%;
+    }
+
+    &__img-tea {
+        margin-top: 3px;
+        margin-left: 82px;
+    }
+
+    &__img-machine {
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
+    &__img-musli {
+        margin-top: 94px;
+        margin-left: 67px;
+    }
+
+    &__icons-title-coffee {
+        @include catalogs("Gilroy", 700, 25px, 30px, #000000);
+        margin-top: 85px;
+        margin-left: 52px;
+    }
+    &__icons-title-tea {
+        @include catalogs("Gilroy", 700, 25px, 30px, #000000);
+        margin-top: 85px;
+        margin-left: 52px;
+    }
+    &__icons-title-machine {
+        @include catalogs("Gilroy", 700, 25px, 30px, #000000);
+        margin-top: 85px;
+        margin-left: 52px;
+    }
+    &__icons-title-musli {
+        @include catalogs("Gilroy", 700, 25px, 30px, #000000);
+        margin-top: 85px;
+        margin-left: 90px;
+    }
+
+    .catalogs-back {
+        position: absolute;
+        z-index: -2;
+    }
+}
