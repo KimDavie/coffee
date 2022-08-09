@@ -1,0 +1,78 @@
+.promise {
+    position: relative;
+    
+
+    &__title {
+        @include promise("Gilroy", 900, 50px, 62px, #000000);
+        width: 585px
+    }
+
+    &__icon-title {
+        @include promise("Gilroy", 700, 30px, 36px, #000000);
+        
+    }
+
+    &__icon-descr {
+        @include promise("Gilroy", 500, 25px, 130%, #000000);
+        width:  456px;
+        margin-top: 20px;
+    }
+
+    &__icons {
+        display: flex;
+        flex-direction: column;
+        margin-left: 55%;
+        
+    }
+    
+    &__icon {
+        display: flex;
+        
+
+    }
+    &__icon-txt {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 60px;
+    }
+
+
+
+    &__coffee-img {
+        position: absolute;
+        left: 123px;
+        top: 300px;
+    }
+    
+    &__grains {
+        position: absolute;
+        z-index: -1;
+        left: 10px;
+        top: -170px
+    }
+
+    .container {
+        margin-top: 199px;
+        margin-bottom: 217px;
+    }
+
+    .promise__back {
+        position: absolute;
+        top: -115px;
+        z-index: -1;
+    }
+
+    .container-back {
+        position: absolute;
+        z-index: -1;
+        top: 173px;
+    }
+
+    .promise__footer {
+        position: absolute;
+        top: 810px;
+        z-index: -1;
+        
+    }
+}

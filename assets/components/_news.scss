@@ -1,0 +1,117 @@
+.news {
+    position: relative;
+
+    .container {
+        margin-top: 189px;
+        margin-left: 122px;
+    }
+
+    &__title {
+        @include news("Gilroy", 900, 50px, 62px, #000000)
+    }
+
+    &__card {
+        margin-top: 60px;
+    }
+
+    &__card-title {
+        @include news("Gilroy", 700, 25px, 130%, #000000);
+        width: 459px;
+    }
+
+    &__card-description {
+        @include news("Gilroy", 500, 20px, 130%, #000000);
+        width: 459px;
+        margin-top: 30px;
+    }
+
+    &__card {
+        width: 960px;
+        height: 400px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2);
+        border-radius: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__card-txt {
+        margin-left: 84px;
+        margin-top: 40px;
+    }
+
+    &__card-item {
+        margin-top: 15px;
+        width: 150px;
+        
+        
+    }
+
+    &__card-link {
+        color: #F9B300;
+    }
+
+    &__card-arrow {
+        margin-left: 5px;
+    }
+
+    &__card-item:hover {
+        text-decoration-line: underline;
+    }
+
+    &__small-card {
+        width: 680px;
+        height: 400px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2);
+        border-radius: 20px;
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+
+    &__small-title {
+        @include news("Gilroy", 700, 26px, 130%, #000000);
+    }
+
+    &__small-description {
+        @include news("Gilroy", 500, 20px, 130%, #000000);
+        margin-top: 40px;
+        width: 428px;
+    }
+
+    &__small-card-txt {
+        margin-left: 140px;
+        margin-top: 60px;
+    }
+
+    &__small-item {
+        margin-top: 50px;
+    }
+
+    &__top-part {
+        display: flex;
+        align-items: center;
+    }
+
+    &__bottom-part {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 122px;
+    }
+
+    &__small-card {
+        margin-right: 20px;
+    }
+
+    .news-back {
+        position: absolute;
+        top: 130px;
+        z-index: -1;
+    }
+
+    .news-big {
+        position: absolute;
+        z-index: -1;
+        top: 425px;
+    }
+}

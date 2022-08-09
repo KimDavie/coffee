@@ -1,0 +1,70 @@
+@mixin header($fam, $weight, $size, $line, $color) {
+    font-family: $fam;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+@mixin hero($fam, $weight, $size, $line, $color) {
+    font-family: $fam;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+@mixin catalogs($fam, $weight, $size, $line, $color) {
+    font-family: $fam;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+@mixin discount($fam, $weight, $size, $line, $color) {
+    font-family: $fam;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+@mixin promise($fam, $weight, $size, $line, $color) {
+    font-family: $fam;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+@mixin process($fam, $weight, $size, $line, $color) {
+    font-family: $fam;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+@mixin news($fam, $weight, $size, $line, $color) {
+    font-family: $fam;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+@mixin inst($fam, $weight, $size, $line, $color) {
+    font-family: $fam;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+@mixin subscription($fam, $weight, $size, $line, $color) {
+    font-family: $fam;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+@mixin footer($fam, $weight, $size, $line, $color) {
+    font-family: $fam;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}

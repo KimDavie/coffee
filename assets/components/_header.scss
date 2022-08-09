@@ -1,0 +1,44 @@
+.header {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(157, 157, 157, 0.25);
+    min-width: 1900px;
+
+    &__search-box {
+        width: 1240px;
+        height: 59px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px rgba(157, 157, 157, 0.25);
+        border-radius: 30px;
+        margin-left: 20px;
+        position: relative;
+    }
+
+    &__search--input {
+        border: none;
+        @include header("Gilroy", 500, 20px, 130%, #C4C4C4);
+        margin-left: 82px;
+        margin-top: 16px;
+    }
+
+    &__search--icon {
+        margin-left: 30px;
+        position: absolute;
+        top: 11px;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        margin-left: 122px;
+        display: flex;
+        
+    }
+
+    &__prof {
+        margin-left: 53px;
+    }
+
+    &__cart {
+        margin-left: 20px;
+    }
+}

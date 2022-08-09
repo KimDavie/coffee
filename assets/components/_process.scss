@@ -1,0 +1,48 @@
+.process {
+    position: relative;
+
+    &__title {
+        @include process("Gilroy", 900, 50px, 62px, #ffffff);
+        
+        
+    }
+
+    &__description {
+        @include process("Gilroy", 500, 25px, 130%, #ffffff);
+        width: 1246px;
+        margin-top: 100px;
+    }
+
+    
+    
+    &__btn {
+        @include process("Gilroy", 700, 30px, 36px, #ffffff);
+        width: 400px;
+        height: 80px;
+        background: #F9B300;
+        border-radius: 5px;
+        margin-top: 100px;
+        box-shadow: inset 0 0 0 0 #964B00;
+        transition: ease-out 0.5s;
+    }
+
+    &__btn:hover {
+        box-shadow: inset 400px 0 0 0 #964B00;
+    }
+
+    &__content {
+        margin-left: 122px;
+    }
+
+    .process-img {
+        position: absolute;
+        top: -670px;
+        z-index: -3;
+    }
+
+    .process-footer {
+        position: absolute;
+        top: 657px;
+        z-index: -1;
+    }
+}
