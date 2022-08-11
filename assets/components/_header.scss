@@ -18,6 +18,7 @@
         @include header("Gilroy", 500, 20px, 130%, #C4C4C4);
         margin-left: 82px;
         margin-top: 16px;
+        outline: none;
     }
 
     &__search--icon {
